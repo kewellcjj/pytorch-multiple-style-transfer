@@ -43,9 +43,10 @@ def train(args):
     train_dataset = datasets.ImageFolder(args.dataset, transform)
     train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True) # to provide a batch loader
 
-    style_image = args.style_image.split("+") # reading style image names my way... could be improved
+    
+    style_image = [f for f in os.listdir(args.style_image)]
     style_num = len(style_image)
-
+    print(style_num)
 
     transformer = TransformerNet(style_num=style_num).to(device)
     optimizer = Adam(transformer.parameters(), args.lr)
@@ -62,7 +63,7 @@ def train(args):
     style_batch = []
 
     for i in range(style_num):
-        style = utils.load_image('style/'+style_image[i]+'.jpg', size=args.style_size)
+        style = utils.load_image(args.style_image + style_image[i], size=args.style_size)
         style = style_transform(style)
         style_batch.append(style)
 
@@ -167,7 +168,7 @@ def main():
     train_arg_parser.add_argument("--dataset", type=str, required=True,
                                   help="path to training dataset, the path should point to a folder "
                                        "containing another folder with all the training images")
-    train_arg_parser.add_argument("--style-image", type=str, default="images/style-images/mosaic.jpg",
+    train_arg_parser.add_argument("--style-image", type=str, default="images/style-images/",
                                   help="path to style-image")
     train_arg_parser.add_argument("--save-model-dir", type=str, required=True,
                                   help="path to folder where trained model will be saved.")
