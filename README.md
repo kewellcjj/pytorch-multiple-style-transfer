@@ -13,7 +13,7 @@ Most of style images are from other great style-transfer-related Github repos I 
 
 ## Usage
 
-Please refer to [fast-neural-style](https://github.com/pytorch/examples/tree/master/fast_neural_style) for more details. We only discuss 
+Please refer to [fast-neural-style](https://github.com/pytorch/examples/tree/master/fast_neural_style) for more details. 
 
 Train
 ```
