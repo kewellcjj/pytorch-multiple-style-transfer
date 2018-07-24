@@ -28,27 +28,27 @@ python neural_style.py eval --content-image </path/to/content/image> --model </p
 
 
 <div align='center'>
-  <img src='images/content-images/river.jpg' height="174px">		
+  <img src='images/content_images/river.jpg' height="174px">		
 </div>
 
 <div align='center'>
-  <img src='images/output-images/river_style0.jpg' height="174px">
-  <img src='images/output-images/river_style1.jpg' height="174px">
-  <img src='images/output-images/river_style2.jpg' height="174px">
-  <img src='images/output-images/river_style3.jpg' height="174px">
-  <img src='images/output-images/river_style4.jpg' height="174px">
-  <img src='images/output-images/river_style5.jpg' height="174px">
-  <img src='images/output-images/river_style6.jpg' height="174px">
-  <img src='images/output-images/river_style7.jpg' height="174px">
-  <img src='images/output-images/river_style8.jpg' height="174px">
-  <img src='images/output-images/river_style9.jpg' height="174px">
-  <img src='images/output-images/river_style10.jpg' height="174px">
-  <img src='images/output-images/river_style11.jpg' height="174px">
-  <img src='images/output-images/river_style12.jpg' height="174px">
-  <img src='images/output-images/river_style13.jpg' height="174px">
-  <img src='images/output-images/river_style14.jpg' height="174px">
-  <img src='images/output-images/river_style15.jpg' height="174px">
-  <img src='images/output-images/river_style16.jpg' height="174px">
-  <img src='images/output-images/river_style17.jpg' height="174px">
-  <img src='images/output-images/river_style18.jpg' height="174px">
+  <img src='images/output_images/river_style0.jpg' height="174px">
+  <img src='images/output_images/river_style1.jpg' height="174px">
+  <img src='images/output_images/river_style2.jpg' height="174px">
+  <img src='images/output_images/river_style3.jpg' height="174px">
+  <img src='images/output_images/river_style4.jpg' height="174px">
+  <img src='images/output_images/river_style5.jpg' height="174px">
+  <img src='images/output_images/river_style6.jpg' height="174px">
+  <img src='images/output_images/river_style7.jpg' height="174px">
+  <img src='images/output_images/river_style8.jpg' height="174px">
+  <img src='images/output_images/river_style9.jpg' height="174px">
+  <img src='images/output_images/river_style10.jpg' height="174px">
+  <img src='images/output_images/river_style11.jpg' height="174px">
+  <img src='images/output_images/river_style12.jpg' height="174px">
+  <img src='images/output_images/river_style13.jpg' height="174px">
+  <img src='images/output_images/river_style14.jpg' height="174px">
+  <img src='images/output_images/river_style15.jpg' height="174px">
+  <img src='images/output_images/river_style16.jpg' height="174px">
+  <img src='images/output_images/river_style17.jpg' height="174px">
+  <img src='images/output_images/river_style18.jpg' height="174px">
 </div>
