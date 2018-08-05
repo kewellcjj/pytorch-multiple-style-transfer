@@ -5,3 +5,5 @@ output/*
 style/*
 checkpoint/*
 pytorch_models/*
+.ipynb_checkpoints/*
+numpy_eval*
