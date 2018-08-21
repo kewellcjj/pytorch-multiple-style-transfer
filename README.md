@@ -28,7 +28,7 @@ python neural_style.py eval --content-image </path/to/content/image> --model </p
 
 ### Training content image datasets
 
-[COCO 2014 Training images dataset [83K/13GB]](http://mscoco.org/dataset/#download)
+[COCO 2014 Training images dataset [83K/13GB]](http://images.cocodataset.org/zips/train2014.zip)
 
 ### Training style images
 
