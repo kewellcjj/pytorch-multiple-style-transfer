@@ -1,9 +1,8 @@
 # pytorch_style_transfer
 
-Built based on the pytorch [fast-neural-style](https://github.com/pytorch/examples/tree/master/fast_neural_style) example for artistic style transfer, this repository re-implemented *Conditional Instance Normalization* layers to train transfer network with multiple style images at the same time. 
+Built based on the pytorch [fast-neural-style](https://github.com/pytorch/examples/tree/master/fast_neural_style) example for artistic style transfer, this repository try to re-implemented *Conditional Instance Normalization* layers to train transfer network with multiple style images at the same time. What I did here is basically replaced all *instance normalization* layers in [fast-neural-style](https://github.com/pytorch/examples/tree/master/fast_neural_style) with *conditional instance normalization* layers
 
-*Conditional Instance Normalization* was introduced in [A Learned Representation For Artistic Style](https://arxiv.org/abs/1610.07629) and implemented with [Google Magenta TensorFlow](https://github.com/tensorflow/magenta/tree/master/magenta/models/image_stylization). I first learned this paper while reading [Joel Moniz Lasagne and Theano implementation](https://github.com/joelmoniz/gogh-figure).
-The creation and usage of the method in this repository is based on my limit knowledge in python, pytorch and neural network. 
+*Conditional Instance Normalization* was introduced in [A Learned Representation For Artistic Style](https://arxiv.org/abs/1610.07629) and implemented with [Google Magenta TensorFlow](https://github.com/tensorflow/magenta/tree/master/magenta/models/image_stylization). I first learned this paper while reading [Joel Moniz Lasagne and Theano implementation](https://github.com/joelmoniz/gogh-figure). The creation and usage of the method in this repository is based on my limit knowledge in python, pytorch and neural network. 
 
 ## Usage
 
